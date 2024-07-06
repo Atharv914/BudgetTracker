@@ -3,13 +3,12 @@ import java.util.*;
 import javax.swing.JOptionPane;
 
  Author: [Atharv]
- * Date: [7/6/2024]
- * 
- * Description:
- * A simple Java application to track personal expenses and income.
- * The app uses Swing for a user-friendly interface and `java.io` for data storage.
- * It allows users to add, edit, delete, and categorize transactions, providing a clear summary of their financial status.
- */
+ Date: [7/6/2024]
+ Description:
+ A simple Java application to track personal expenses and income.
+ The app uses Swing for a user-friendly interface and `java.io` for data storage.
+ It allows users to add, edit, delete, and categorize transactions, providing a clear summary of their financial status.
+ 
 
 public class BudgetTracker {
     private static final String FILE_NAME = "transactions.txt"; // File name to store transactions (Preferabbly add your own file or change this code for your own use)
